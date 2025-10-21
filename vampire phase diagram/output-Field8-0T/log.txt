@@ -1,0 +1,64 @@
+19-10-2025 [20:28:51] Logfile opened
+19-10-2025 [20:28:51] Executable : vampire-serial
+19-10-2025 [20:28:51] Host name  : 53a6091906e1:
+19-10-2025 [20:28:51] Directory  : /content/drive/MyDrive/Colab Notebooks/vampire phase diagram
+19-10-2025 [20:28:51] Process ID : 92514
+19-10-2025 [20:28:51] Version    : 7.0.0
+19-10-2025 [20:28:51] Githash    : 525bc27ee44c525aee229570f30f3d4c61d54f66
+19-10-2025 [20:28:51] Opening main input file "input".
+19-10-2025 [20:28:51] Parsing system parameters from main input file.
+19-10-2025 [20:28:51] Opening material file "vampire.mat".
+19-10-2025 [20:28:51] Parsing material file for parameters.
+19-10-2025 [20:28:51] Setting periodic boundary conditions in x,y,z directions
+19-10-2025 [20:28:51] Reading in unit cell data from disk...
+19-10-2025 [20:28:51] Reading data completed. Processing unit cell data...
+19-10-2025 [20:28:51] 	Processing data for 9 unit cell atoms...
+19-10-2025 [20:28:51] 	Processing unit cell atoms completed
+19-10-2025 [20:28:51] 	Processing data from 54 interactions...
+19-10-2025 [20:28:51] 	Processing unit cell interactions completed
+19-10-2025 [20:28:51] 	Verifying unit cell exchange interactions...
+19-10-2025 [20:28:51] Verifying unit cell exchange interactions completed
+19-10-2025 [20:28:51] 	Number of atoms read-in: 9
+19-10-2025 [20:28:51] 	Number of bilinear interactions read-in: 54
+19-10-2025 [20:28:51] 	Number of biquadratic interactions read-in: 0
+19-10-2025 [20:28:51] 	Exchange type: 
+19-10-2025 [20:28:51] 	Calculated interaction range: 1 Unit Cells
+19-10-2025 [20:28:51] Calculating alloy properties of system
+19-10-2025 [20:28:51] Determining atomic composition:
+19-10-2025 [20:28:51] Material 1 Mn makes up 100 % of all atoms ( 9600 atoms )
+19-10-2025 [20:28:51] Material 2 Mn makes up 0 % of all atoms ( 0 atoms )
+19-10-2025 [20:28:51] Material 3 Mn makes up 0 % of all atoms ( 0 atoms )
+19-10-2025 [20:28:51] Memory required for neighbourlist calculation:0.2304 MB
+19-10-2025 [20:28:51] Allocating memory for supercell array in neighbourlist calculation
+19-10-2025 [20:28:51] 	Allocating memory done
+19-10-2025 [20:28:51] Populating supercell array for neighbourlist calculation...
+19-10-2025 [20:28:51] 	Populating supercell array completed
+19-10-2025 [20:28:51] Memory required for neighbour list:1.3824 MB
+19-10-2025 [20:28:51] Generating neighbour list...
+19-10-2025 [20:28:51] 	Neighbour list calculation complete
+19-10-2025 [20:28:51] Deallocating supercell array for neighbour list calculation
+19-10-2025 [20:28:51] 	Supercell array deallocated
+19-10-2025 [20:28:51] Copying system data to optimised data structures.
+19-10-2025 [20:28:51] Number of atoms generated on rank 0: 9600
+19-10-2025 [20:28:51] Memory required for copying to performance array on rank 0: 1.4592 MB RAM
+19-10-2025 [20:28:51] Identifying surface atoms using global threshold value of 0
+19-10-2025 [20:28:51] 0 surface atoms found.
+19-10-2025 [20:28:51] Memory required for creation of 1D neighbour list on rank 0: 0.1536 MB RAM
+19-10-2025 [20:28:51] Initialising data structures for exchange calculation.
+19-10-2025 [20:28:51] Unrolled exchange template requires 0.000432MB RAM
+19-10-2025 [20:28:51] Number of atoms generated: 9600
+19-10-2025 [20:28:51] Initializing vampire modules
+19-10-2025 [20:28:51] Macrocell size = 10,10,10 Angstroms
+19-10-2025 [20:28:51] Macrocells in x,y,z: 3	3	1
+19-10-2025 [20:28:51] Total number of macrocells: 9
+19-10-2025 [20:28:51] Memory required for macrocell arrays: 0.00072 MB
+19-10-2025 [20:28:51] Number of local macrocells on rank 0: 4
+19-10-2025 [20:28:51] Initialising data structures for anisotropy calculation for 100 materials
+19-10-2025 [20:28:51] Initialising statistics module
+19-10-2025 [20:28:51] Starting Simulation with Program partial-hysteresis-loop...
+19-10-2025 [20:30:42] Simulation run time [s]: 111.099
+19-10-2025 [20:30:42] Monte Carlo statistics:
+19-10-2025 [20:30:42] 	Total moves: 4.032e+08
+19-10-2025 [20:30:42] 	53.6968% Accepted
+19-10-2025 [20:30:42] 	46.3032% Rejected
+19-10-2025 [20:30:42] Simulation ended gracefully.
