@@ -1,4 +1,4 @@
-# spindynamics_hands-on
+# Hands-on on spin dynamics and Monte Carlo
 
 This is a brief hands-on tutorial on spin dynamics using _Spirit_ and _Vampire_.
 
